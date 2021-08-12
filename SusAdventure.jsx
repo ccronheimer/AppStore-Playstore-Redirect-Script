@@ -1,7 +1,6 @@
 import React from 'react'
-import { Typography } from '@material-ui/core';
 
-const susadventure = () => {
+const RedirectScript = () => {
     function getMobileOperatingSystem(){
         var userAgent = navigator.userAgent || navigator.vendor || window.opera;
     
@@ -38,9 +37,8 @@ const susadventure = () => {
         return (
             <div>
                 {DetectAndServe()}
-                <Typography>Thank you for downloading ❤️ </Typography>
             </div>
         )
     }
 
-export default susadventure
+export default RedirectScript
