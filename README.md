@@ -2,7 +2,8 @@
  A small script to redirect users to the AppStore or PlayStore based on the users mobile device.
  
  ```javascript
- 
+import React from 'react'
+
 const RedirectScript = () => {
     function getMobileOperatingSystem(){
         var userAgent = navigator.userAgent || navigator.vendor || window.opera;
